@@ -1,0 +1,26 @@
+# Set default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted to LF.
+*.c    text
+*.cpp  text
+*.h    text
+*.css  text
+*.js   text
+*.jsx  text
+*.ts   text
+*.tsx  text
+*.json text
+*.md   text
+*.xml  text
+
+# Declare files that will always have CRLF line endings on checkout.
+*.bat  eol=crlf
+
+# Declare files that should be treated as binary and should not be modified.
+*.png  binary
+*.jpg  binary
+*.gif  binary
+*.ico  binary
+*.zip  binary
+*.pdf  binary
